@@ -1,0 +1,8 @@
+Settings.py : Settings for hele prosjektet. 
+Hver app har sin models.py som definerer klasser (f.eks databaseobjekter)
+
+Step for å gjøre endringer i db-modell:
+
+Editere i models.py for appen
+kjøre python manage.py makemigrations APP_NAVN
+kjøre python manage.py migrate APP_NAVN
